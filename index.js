@@ -204,7 +204,7 @@ var j = 1;
 setInterval(() => {
     var date = new Date();
     date.setSeconds(j++);
-    if (date.getSeconds() < 10) {
+    if (date.getSeconds() < 60) {
         document.getElementById('time').innerHTML = date.getSeconds();
     } else {
         document.getElementById('time').innerHTML = date.getSeconds();
